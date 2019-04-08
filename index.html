@@ -2,154 +2,175 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GabbaAgnes</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GabbaAgnes</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js'></script>
   <script src='https://threejs.org/examples/js/controls/TrackballControls.js'></script>
   <script src='https://mamboleoo.be/learnThree/demos/OBJLoader.js'></script>
-  
+
 </head>
 
 <body>
 
-    <div class="row">
-        <img src="./images/3.gif" height="190"  class="sunImage">
-    </div>
+  <div class="row">
+    <img src="./images/3.gif" height="190" class="sunImage">
+  </div>
 
-    <div class="row grey-blue">
-        <div id="topBackground">
-            <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep" viewBox="0 0 1600 200" style="display: block;" data-height="200">
-                <polygon class="" style="fill: #FD9BCA;" points="-4,188.586 174,76 292,124 402,60 536,108 752,8 882,66 990,32 1210,116 1380,64 1536,150 1604,115.09 1604,204 -4,204 "></polygon>
-                <polygon class="" style="opacity: 1;fill: black;" points="174,76 174,78 -4,198 -4,188.586 "></polygon>
-                <polygon class="" style="opacity: 1;fill: black;" points="292,124 302,138 402,64 402,60 "></polygon>
-                <polygon class="" style="opacity: 1;fill: black;" points="536,108 544,120 752,12 752,8 "></polygon>
-                <polygon class="" style="opacity: 1;fill: black;" points="882,66 890,78 990,36 990,32 "></polygon>
-                <polygon class="" style="opacity: 1;fill: black;" points="1210,116 1222,130 1380,68 1380,64 "></polygon>
-                <polygon class="" style="opacity: 1;fill:black;" points="1536,150 1546,164 1604,124 1604,115.09 "></polygon>
-                <polygon class="" style="opacity: 1;fill:#FFFD52;" points="174,76 292,124 282,140 174,78 "></polygon>
-                <polygon class="" style="opacity: 1;fill: #FFFD52;" points="402,60 536,108 528,120 402,64 "></polygon>
-                <polygon class="" style="opacity: 1;fill: #FFFD52;" points="752,8 882,66 874,80 752,12 "></polygon>
-                <polygon class="" style="opacity: 1;fill: #FFFD52;" points="990,32 990,36 1192,130 1210,116 "></polygon>
-                <polygon class="" style="opacity: 1;fill:#FFFD52;" points="1380,64 1536,150 1526,168 1380,68 "></polygon>
-            </svg>
+  <div class="row grey-blue">
+    <div id="topBackground">
+      <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep" viewBox="0 0 1600 200"
+        style="display: block;" data-height="200">
+        <polygon class="" style="fill: #FD9BCA;"
+          points="-4,188.586 174,76 292,124 402,60 536,108 752,8 882,66 990,32 1210,116 1380,64 1536,150 1604,115.09 1604,204 -4,204 ">
+        </polygon>
+        <polygon class="" style="opacity: 1;fill: black;" points="174,76 174,78 -4,198 -4,188.586 "></polygon>
+        <polygon class="" style="opacity: 1;fill: black;" points="292,124 302,138 402,64 402,60 "></polygon>
+        <polygon class="" style="opacity: 1;fill: black;" points="536,108 544,120 752,12 752,8 "></polygon>
+        <polygon class="" style="opacity: 1;fill: black;" points="882,66 890,78 990,36 990,32 "></polygon>
+        <polygon class="" style="opacity: 1;fill: black;" points="1210,116 1222,130 1380,68 1380,64 "></polygon>
+        <polygon class="" style="opacity: 1;fill:black;" points="1536,150 1546,164 1604,124 1604,115.09 "></polygon>
+        <polygon class="" style="opacity: 1;fill:#FFFD52;" points="174,76 292,124 282,140 174,78 "></polygon>
+        <polygon class="" style="opacity: 1;fill: #FFFD52;" points="402,60 536,108 528,120 402,64 "></polygon>
+        <polygon class="" style="opacity: 1;fill: #FFFD52;" points="752,8 882,66 874,80 752,12 "></polygon>
+        <polygon class="" style="opacity: 1;fill: #FFFD52;" points="990,32 990,36 1192,130 1210,116 "></polygon>
+        <polygon class="" style="opacity: 1;fill:#FFFD52;" points="1380,64 1536,150 1526,168 1380,68 "></polygon>
+      </svg>
+    </div>
+  </div>
+  <h1>AGNES LI</h1>
+  <h1 id="intro">I am a web developer based in the Greater Los Angeles Area. My love for surrealist art and 3D creatures
+    motivates me to create pieces that shares similar atmosphere. With continuous exploration and study, my goal is to
+    create more ecstatic user experience that leaves a lasting impression.
+    <h1>
+
+      <a class="github-corner" href="https://github.com/GabbaAgnes" title="Fork me on GitHub">
+        <svg width="105" height="105" viewbox="0 0 250 250">
+          <title>Fork me on GitHub</title>
+          <path d="M0 0h250v250"></path>
+          <path class="octo-arm"
+            d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2"
+            fill="currentColor" style="transform-origin:130px 110px;"></path>
+          <path class="octo-body"
+            d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z"
+            fill="currentColor"></path>
+        </svg></a>
+
+      <div class="container">
+
+        <header class="baseFormat">
+
+          <nav>
+            <ul>
+              <li><a href="https://github.com/GabbaAgnes"><img src="./images/Octocat.png" alt="Octocat" width="42" height="42"></a></li>
+              <li><a href="https://www.linkedin.com/in/agnes-kemeng-li-637717110/"><img src="./images/in.png" alt="LinkedIn" width="42" height="42"></a></li>
+              <li><a href="#bottom"><img src="./images/Gmail.png" alt="email" width="42" height="42"></a></li>
+
+            </ul>
+          </nav>
+        </header>
+
+
+
+        <!--    <div id="asteroid"></div>-->
+
+
+
+        <section class="tabs">
+          <input type="radio" name="tabs" id="tabone" checked="checked">
+          <label for="tabone">Work #One</label>
+          <div class="tab">
+            <div>Tardigrade Connect</div><br/>
+            <div class="example">
+              <div id="tabOne"></div>
+              <div class="image--inline1"></div>
+              <p class="text" id="textOne">This is a profile page of one particular tardigrade who is looking for
+                someone to watch the sunset and dive into Cryptobiosis together. User is able to choose from the given
+                extreme environments and have the chance to join him at the particular geographic location.
+              </p>
+
+              <form action="https://gabbaagnes.github.io/tardigrades/" method="get">
+                <button>Live App</button>
+              </form>
+              /
+              <form action="https://github.com/GabbaAgnes/tardigrades" method="get">
+                <button>Repo</button>
+              </form>
+              <p>HTML/CSS/jQuery
+              </p>
+
+            </div>
+
+          </div>
+
+          <input type="radio" name="tabs" id="tabtwo">
+          <label for="tabtwo">Work #Two</label>
+          <div class="tab">
+            <div>Creature Market</div><br/>
+            <div class="example">
+              <div id="tabTwo"></div>
+              <div class="image--inline2"></div>
+              <p class="text" id="textTwo">A website showcases a variety of creatures that are mutants from earthlings.
+                Choose your desired one and complete its story in your interpretation.
+              </p>
+              <form action="https://creaturemart.herokuapp.com" method="get">
+                <button>Live App</button>
+              </form>
+              /
+              <form action="https://github.com/GabbaAgnes/market" method="get">
+                <button>Repo</button>
+              </form>
+              <p>node/express/mongo
+
+              </p>
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tabthree">
+          <label for="tabthree">Work #Three</label>
+          <div class="tab">
+            <div>Essentialism</div><br/>
+            <div class="example">
+              <div id="tabThree"></div>
+              <div class="image--inline3"></div>
+              <p class="text" id="textThree">Inspired by the book Essentialism by Greg McKeown,
+                user dives into great content from the book along with terrific art pieces, and help enriching the
+                display using the provided materials.
+              </p>
+              <form action="https://thinlyslicedplasticbag.herokuapp.com/" method="get">
+                <button>Live App</button>
+              </form>
+              /
+              <form action="https://github.com/GabbaAgnes/plasticbag" method="get">
+                <button>Repo</button>
+              </form>
+              <p>react/express/node/Mongo/
+
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+        <div class="feature-row baseFormat" id="animated-shadow-quote">
+          <div class="feature about">Seeking opportunities and adventures.</div>
+          <div class="feature skills">Contact me: gabbaagnes@gmail.com</div>
         </div>
-    </div>
-       <h1>AGNES LI</h1>
-    <h1 id="intro">I am a web developer based in the Greater Los Angeles Area. My love for surrealist art and 3D creatures motivates me to create pieces that shares similar atmosphere. With continuous exploration and study, my goal is to create more ecstatic user experience that leaves a lasting impression. 
-      <h1>
 
-              <a class="github-corner" href="https://github.com/GabbaAgnes" title="Fork me on GitHub">
-                <svg width="105" height="105" viewbox="0 0 250 250"><title>Fork me on GitHub</title>
-                    <path d="M0 0h250v250"></path><path class="octo-arm" d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2" fill="currentColor" style="transform-origin:130px 110px;"></path><path class="octo-body" d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z" fill="currentColor"></path>
-                </svg></a>
-
-                <div class="container">
-
-                <header class="baseFormat">
-
-                  <nav>
-                    <ul>
-                      <li><a href="https://github.com/GabbaAgnes">GitHub</a></li>
-                      <li><a href="https://www.linkedin.com/in/agnes-kemeng-li-637717110/">LinkedIn</a></li>
-                      
-                    </ul>
-                  </nav>
-                </header>
-
-               
-
-            <!--    <div id="asteroid"></div>-->
-
-                
-             
-              <section class="tabs">
-  <input type="radio" name="tabs" id="tabone" checked="checked">
-  <label for="tabone">Work #One</label>
-  <div class="tab">
-    <div>Tardigrade Connect</div>
-    <div class="example"> 
-      <div id="tabOne"></div>
-     <div class="image--inline1"></div>
-     <p class="text" id="textOne">This is a profile page of one particular tardigrade who is looking for someone to watch the sunset and dive into Cryptobiosis together. User is able to choose from the given extreme environments and have the chance to join him at the particular geographic location.
-    </p>
-    
-    <form action="https://gabbaagnes.github.io/tardigrades/" method="get">
-      <button>Live App</button>
-    </form>
-       /
-       <form action="https://github.com/GabbaAgnes/tardigrades" method="get">
-        <button>Repo</button>
-      </form>
-      <p>HTML/CSS/jQuery
-      </p>  
-   
-   </div>
-    
-  </div>
-  
-  <input type="radio" name="tabs" id="tabtwo">
-  <label for="tabtwo">Work #Two</label>
-  <div class="tab">
-    <div>Creature Market</div>
-     <div class="example"> 
-      <div id="tabTwo"></div>
-    <div class="image--inline2"></div>
-    <p class="text" id="textTwo">A website showcases a variety of creatures that are mutants from earthlings. Choose your desired one and complete its story in your interpretation.
-    </p>
-    <form action="https://creaturemart.herokuapp.com/" method="get">
-      <button>Live App</button>
-    </form>
-       /
-       <form action="https://github.com/GabbaAgnes/market" method="get">
-        <button>Repo</button>
-      </form>
-      <p>node/express/mongo
-
-      </p> 
-  </div>
-  </div>
-  
-  <input type="radio" name="tabs" id="tabthree">
-  <label for="tabthree">Work #Three</label>
-  <div class="tab">
-    <div>Essentialism</div>
-    <div class="example"> 
-      <div id="tabThree"></div>
-     <div class="image--inline3"></div>
-     <p class="text" id="textThree">Inspired by the book Essentialism by Greg McKeown,
-      user dives into great content from the book along with terrific art pieces, and help enriching the display using the provided materials.
-      </p>
-     <form action="https://thinlyslicedplasticbag.herokuapp.com/" method="get">
-      <button>Live App</button>
-    </form>
-       /
-       <form action="https://github.com/GabbaAgnes/plasticbag" method="get">
-        <button>Repo</button>
-      </form>
-      <p>react/express/node/Mongo/
-
-      </p> 
-    </div>
-  </div>
-</section>
+      </div><!-- end container -->
 
 
-              <div class="feature-row baseFormat" id="animated-shadow-quote">
-                <div class="feature about">Seeking opportunities and adventures.</div>
-                <div class="feature skills">Contact me: gabbaagnes@gmail.com</div>
-              </div>
 
-            </div><!-- end container -->
 
-              
 
-   
-     
       <!-- <script src='./asteroid.js'></script> 
       <script>document.write('<script src="/asteroid.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>-->
 </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="port.js"></script>
 
 </html>
