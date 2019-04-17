@@ -105,6 +105,7 @@ h1{
     padding: 10px 10px;
     text-decoration: none;
     color: tomato;
+    float:right;
   }
   .baseFormat li a:hover {
     background: tomato;
